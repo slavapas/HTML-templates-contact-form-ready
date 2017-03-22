@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+.messages {
+    display: none;
+    background: #20cc35;
+    padding: 10px;
+    margin-bottom: 19px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+form#contact-form {
+    margin-top: 20px;
+}
+
+label {
+  font-size: 0.875rem;
+     color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 8px;
+      font-size: 19px;
+    
+}
+.page .form label {
+  font-family: Asap;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.35em;
+  padding-top: 0.4em;
+}
+.header-top .menu a, .page-footer, .quick-link .title, .p-footer .text, .p-footer .arrow-d, .page-footer a, .page-cent .content, .page-cent .p-title h3, .page-cent .p-title h2, .page-cent .text, .page h2, .page h3, .page h4, .page p, .page .content .clock .header, .page .clock .text, .page .clock .elem-center .digit, .page .clock .elem-right .digit, .page .clock .elem-left .digit, .page .form input, .page .form label, .c-layout.c-day .number, .page .form button, .page .form textarea {
+  font-family: Opensans;
+  letter-spacing: -0.01em;
+  
+  
+}
+input.btn.btn-success.btn-send, 
+input.btn.btn-success.btn-send.disabled {
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    moz-transition-duration:0.8s;
+    background-color: #5677fc;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+input.btn.btn-success.btn-send:hover, 
+input.btn.btn-success.btn-send.disabled:hover{
+	background:red;
+}
+
+::-webkit-input-placeholder {
+	font-size: 14px !important;
+	font-weight: normal  !important;
+}
+::-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: normal  !important;
+}
+
+.help-block.with-errors {
+    color: #95bbff;
+}
+
+input#form_name,
+input#form_lastname, 
+input#form_email, 
+input#form_phone, 
+textarea#form_message   {
+	background: rgba(255, 255, 255, 0.10);
+	border: none;
+        border-bottom: 1px solid blue;
+	background: rgba(0, 0, 0, 0.12);
+	color: #fff;
+   	font-size: 18px;
+   	font-weight: bold;
+    
+}
+input#form_name:focus,
+input#form_lastname:focus, 
+input#form_email:focus, 
+input#form_phone:focus, 
+textarea#form_message:focus {
+	    background: rgb(255, 255, 0);
+	    color: rgba(82, 82, 82, 0.69);
+	    font-size: 18px;
+	    font-weight: bold;
+} 
+.help-block.with-errors {
+    color: yellow;
+    text-align: center;
+}
+p.text-muted {
+	font-size: 14px;
+}
+
+
+
